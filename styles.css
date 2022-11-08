@@ -1,0 +1,53 @@
+* {
+    box-sizing: borderbox;
+    
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.shop {
+    height: 500px;
+    width: 800px;
+    display: flex;
+
+}
+
+.products {
+    background-color: #ccc;
+    flex: 2;
+}
+
+.checkout {
+    background-color: #333;
+    flex: 1;
+    color: white; 
+}
+
+.checkout-list {
+    height: 90%;
+    padding: 10px;
+}
+
+.running {
+    float: right;
+}
+
+.checkout-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+.checkout-total {
+    font-size: 25px;
+    font-weight: bold;
+    height: 10%;
+    display: flex;
+    background-color: #000;
+    justify-content: flex-end;
+    padding: 10px;
+}
